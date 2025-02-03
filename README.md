@@ -1,0 +1,3 @@
+This repository contains a simple MATLAB function that demonstrates an uncommon error. The function `myFunction` calculates a result based on the input value. However, there is a typo in the `disp` statement, which causes an error because it refers to an undefined variable `input1` instead of the correct input variable `input`.
+
+The error only occurs when the function is actually called; if it is just defined and not executed, MATLAB's parser won't detect the typo. This makes this a bit more subtle than a typical undefined variable error. The solution shows how to fix this simple typo.
